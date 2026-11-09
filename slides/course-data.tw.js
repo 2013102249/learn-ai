@@ -10,7 +10,7 @@ window.COURSE = {
   meta: {
     title: '學 AI 產品，從入門到精通',
     subtitle: '從大模型底層原理到 AI Agent Harness',
-    brand: '小山學堂',
+    brand: '新像素學堂',
     author: '洛小山',
     authorUrl: 'https://luoxiaoshan.cn/',
     github: 'https://github.com/itshen/learn-ai',
@@ -1836,7 +1836,7 @@ window.COURSE = {
       id: 'p-seo',
       num: '課後甜點',
       title: '被搜到：SEO 與 GEO',
-      desc: '產品做出來了、確權了，接下來的問題是有沒有人找得到。這一章講兩件事：SEO 的最低可行清單（能被抓、能被讀懂、能被收錄），以及 GEO 這個新戰場（讓 ChatGPT、Perplexity、Kimi、豆包在回答問題時願意引用你）。全章用小山學堂自己的一次真實改造當案例，不教黑帽，不承諾排名，只給能自己動手核對的清單。前兩節免登入，其餘登入後學習。',
+      desc: '產品做出來了、確權了，接下來的問題是有沒有人找得到。這一章講兩件事：SEO 的最低可行清單（能被抓、能被讀懂、能被收錄），以及 GEO 這個新戰場（讓 ChatGPT、Perplexity、Kimi、豆包在回答問題時願意引用你）。全章用新像素學堂自己的一次真實改造當案例，不教黑帽，不承諾排名，只給能自己動手核對的清單。前兩節免登入，其餘登入後學習。',
       color: '#4338ca',
       group: 'extra',
       routes: ['use', 'pro', 'pm', 'build'],
@@ -1867,7 +1867,7 @@ window.COURSE = {
           title: '拆一個真實案例',
           desc: '用本站的改造記錄當解剖臺',
           lessons: [
-            { file: 'seo-4.html', title: '拆本站：Google 收錄 693 頁，Bing 只有 50 頁', desc: '小山學堂 2026 年 8 月真實審計覆盤：sitemap 漏了全部英韓頁、Q&A 頁白扔了 FAQ 引用、日誌把爬蟲全丟棄。每個缺口講清怎麼發現、改了什麼、拿什麼驗收', tag: '案例' , navTitle: '拆本站真實改造'},
+            { file: 'seo-4.html', title: '拆本站：Google 收錄 693 頁，Bing 只有 50 頁', desc: '新像素學堂 2026 年 8 月真實審計覆盤：sitemap 漏了全部英韓頁、Q&A 頁白扔了 FAQ 引用、日誌把爬蟲全丟棄。每個缺口講清怎麼發現、改了什麼、拿什麼驗收', tag: '案例' , navTitle: '拆本站真實改造'},
           ],
         },
         {

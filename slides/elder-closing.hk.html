@@ -119,7 +119,7 @@
     <div class="cert-frame" aria-label="結業小證書">
       <img class="cert-bg" src="elder-certificate-bg.jpg?v=20260825g" alt="">
       <div class="cert-text">
-        <div class="school">小山學堂 · 白艾莉小姐爸媽版</div>
+        <div class="school">新像素學堂 · 白艾莉小姐爸媽版</div>
         <h3>結業小證書</h3>
         <div class="line"></div>
         <p class="who">頒畀認真學完呢一課嘅你</p>
@@ -159,7 +159,7 @@
         ctx.fillStyle = '#6f7f78';
         ctx.font = '700 36px "PingFang SC","Hiragino Sans GB",sans-serif';
         ctx.textAlign = 'center';
-        ctx.fillText('小山學堂 · 白艾莉小姐爸媽版', cx, canvas.height * 0.24);
+        ctx.fillText('新像素學堂 · 白艾莉小姐爸媽版', cx, canvas.height * 0.24);
         ctx.fillStyle = '#234f40';
         ctx.font = '700 86px "PingFang SC","Hiragino Sans GB",sans-serif';
         ctx.fillText('結業小證書', cx, canvas.height * 0.38);
@@ -206,7 +206,7 @@
     try {
       const canvas = await drawCertificate();
       const link = document.createElement('a');
-      link.download = '小山學堂-爸媽版結業證書.png';
+      link.download = '新像素學堂-爸媽版結業證書.png';
       link.href = canvas.toDataURL('image/png');
       link.click();
     } catch (_) {

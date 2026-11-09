@@ -1,4 +1,4 @@
-/* 小山学堂课程主题桥
+/* 新像素学堂课程主题桥
    可在 <head> 同步加载，也可由 learn.html 注入 iframe：
    先设置 data-theme 避免闪白，DOM 就绪后再归一旧页面的硬编码颜色。 */
 (function(){

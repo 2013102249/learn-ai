@@ -59,8 +59,8 @@
       copyFail: '复制失败，请手动复制地址栏链接',
       downloading: '已开始下载，如未响应请长按图片保存',
       posterCta: '扫码继续学这一节',
-      posterBrand: 'xueai.miyang.cn · 小山学堂',
-      fileTag: '小山学堂'
+      posterBrand: 'xueai.miyang.cn · 新像素学堂',
+      fileTag: '新像素学堂'
     },
     hk: {
       page: 'learn.hk.html',
@@ -77,8 +77,8 @@
       copyFail: '複製失敗，請手動複製地址欄連結',
       downloading: '已開始下載，如未響應請長按圖片保存',
       posterCta: '掃碼繼續學這一節',
-      posterBrand: 'xueai.miyang.cn · 小山學堂',
-      fileTag: '小山學堂'
+      posterBrand: 'xueai.miyang.cn · 新像素學堂',
+      fileTag: '新像素學堂'
     },
     tw: {
       page: 'learn.tw.html',
@@ -95,8 +95,8 @@
       copyFail: '複製失敗，請手動複製網址列連結',
       downloading: '已開始下載，如未響應請長按圖片儲存',
       posterCta: '掃碼繼續學這一節',
-      posterBrand: 'xueai.miyang.cn · 小山學堂',
-      fileTag: '小山學堂'
+      posterBrand: 'xueai.miyang.cn · 新像素學堂',
+      fileTag: '新像素學堂'
     },
     en: {
       page: 'learn.en.html',

@@ -10,7 +10,7 @@ window.COURSE = {
   meta: {
     title: '学 AI 产品，从入门到精通',
     subtitle: '从大模型底层原理到 AI Agent Harness',
-    brand: '小山学堂',
+    brand: '新像素学堂',
     author: '洛小山',
     authorUrl: 'https://luoxiaoshan.cn/',
     github: 'https://github.com/itshen/learn-ai',
