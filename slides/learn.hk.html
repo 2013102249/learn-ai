@@ -1047,6 +1047,27 @@ body .topbar .xa-login-btn::before{
 </style>
 <link rel="stylesheet" href="share-card.css?v=20260809a">
 <link rel="stylesheet" href="challenge.css?v=20260810d">
+
+<!-- 镜像站点定制样式（免登录 / 隐藏扫码关注） -->
+<style id="xa-mirror-free-css">
+/* ── 镜像站点定制：隐藏扫码关注 / 二维码 / 登录与右上角操作栏 ── */
+.qr-bar,.sidebar-qr,#partnerSidebarSlot,.qr-section,.qr-chan,.qr-hint,
+.gongyi-qr,.gongyi-qrcap,.gongyi-qrsub,
+img[alt*="二维码"],img[alt*="QR"],[class*="qrcode"],[id*="qrcode"],
+.xa-group,.xa-slot,.xa-login-btn,.xa-account-btn,.xa-account-menu,
+.xa-scrim,.xa-modal,.xa-gate,.xa-note,#xueai-sp-overlay
+{display:none!important;visibility:hidden!important;}
+/* 右上角整排按钮：分享 / 主题 / 语言 / 伴学计划 / 交流群 / 账号 */
+#shareLesson,.share-lesson-btn,#themeBtn,.theme-btn,#langSwitcher,
+.lang-switcher,.lang-dd,#lang-switcher,#authSlot,.xa-group,.xa-slot
+{display:none!important;}
+/* 登录墙兜底：即便 xa-locked 被再次加上，正文仍保持可见 */
+html.xa-locked .paywall-locked:not(.xa-peek){display:block!important;}
+html.xa-locked .xa-peek{max-height:none!important;overflow:visible!important;
+-webkit-mask-image:none!important;mask-image:none!important;
+pointer-events:auto!important;user-select:auto!important;}
+.lesson-item.locked::after,.lesson-item.locked .lock-ico{display:none!important;}
+</style>
 </head>
 <body>
 

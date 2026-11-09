@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex">
 <title>小山学堂 · 学 AI 产品，从入门到精通</title>
 <script>
-/* 与 slides/index.html 同一套口径：先认用户选过的语言，没有再猜浏览器语言。
+/* 站点首页默认直达课程页：先认用户选过的语言，没有再猜浏览器语言。
    meta refresh 留作脚本被禁时的兜底，所以这段要跑在它前面。 */
 (function(){
   var lang = '';
@@ -19,13 +19,13 @@
     else if (nav.indexOf('zh') === 0) lang = 'zh';
     else lang = 'en';
   }
-  window.location.replace(lang === 'zh' ? 'slides/home.html' : 'slides/home.' + lang + '.html');
+  window.location.replace('slides/' + (lang === 'zh' ? 'learn.html' : 'learn.' + lang + '.html'));
 })();
 </script>
-<meta http-equiv="refresh" content="0;url=slides/index.html">
+<meta http-equiv="refresh" content="0;url=slides/learn.html">
 </head>
 <body>
-<p>正在进入课程，如未自动跳转，<a href="slides/index.html">请点击这里</a>。</p>
+<p>正在进入课程，如未自动跳转，<a href="slides/learn.html">请点击这里</a>。</p>
 <hr>
 <p style="font:13px/1.6 system-ui,sans-serif;color:#555">
 本站点为开源课程《AI 产品从入门到精通》的 GitHub Pages 镜像，原作者：洛小山，

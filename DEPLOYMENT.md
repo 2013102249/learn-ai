@@ -7,19 +7,23 @@
 - **许可证**：GNU AGPL-3.0，详见仓库根目录 `LICENSE` 与 `README.md`
 - **内容归属**：课件内容与署名均归原作者所有，本仓库仅做静态镜像部署
 
-## 相对源仓库的改动
+## 镜像定制（相对上游）
 
-仅新增以下文件，未修改任何课件内容：
-
-| 文件 | 用途 |
+| 定制项 | 实现方式 |
 | --- | --- |
-| `index.html` | 站点根入口，按浏览器/本地语言偏好跳转到 `slides/home*.html` |
-| `.nojekyll` | 跳过 Jekyll 构建，直接发布纯静态文件 |
-| `DEPLOYMENT.md` | 本说明文件 |
+| 站点首页默认进入课程页 | `index.html`、`slides/index.html` 改为按语言跳转 `slides/learn*.html` |
+| 所有课程页免登录、全文可读 | `slides/paywall.js` 替换为解锁垫片；`slides/auth.js` 替换为免登录兼容桩（`XueaiAuth.isFree()` 恒为 true）；统一覆盖层移除 `html.xa-locked` |
+| 隐藏每页顶部「扫码关注」横幅 | `slides/lesson.js` 关闭 `initQrBar()`；覆盖层 CSS 兜底 |
+| 隐藏左下角公众号二维码 | 覆盖层 CSS 隐藏 `.sidebar-qr` / `#partnerSidebarSlot` |
+| 隐藏右上角整排按钮 | 覆盖层 CSS 隐藏分享 / 主题 / 语言 / 伴学计划 / 交流群 / 账号控件 |
+| 隐藏首页二维码区与启动推广层 | 覆盖层 CSS 隐藏 `.qr-section` / `#xueai-sp-overlay` |
+| 统一覆盖层 | 追加到 `slides/` 下 25 个共享 JS 文件尾部（幂等，`window.__XA_MIRROR_FREE__` 防重复），并向 `learn*.html` / `home*.html` 的 `<head>` 注入同一段 CSS 避免首屏闪烁 |
 
-## 更新方式
+课件正文、作者署名、JSON-LD 作者信息、`LICENSE`、`README.md` 均未改动。
 
-在 GitHub 仓库页面点击 **Sync fork** 同步上游更新即可；Pages 会在推送后自动重新构建。
+## 更新方式（重要）
+
+⚠️ **不要直接点击 GitHub 的 Sync fork**：上游同步会用原版文件覆盖上述定制（尤其是 `paywall.js`、`auth.js`、`lesson.js` 与 25 个共享 JS）。如需同步上游课程更新，请先备份定制文件，同步后重新应用覆盖层，或只 cherry-pick 上游新增的课件内容。
 
 ## 许可提示
 
