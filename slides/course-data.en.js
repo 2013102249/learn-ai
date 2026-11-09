@@ -10,7 +10,7 @@ window.COURSE = {
   meta: {
     title: 'AI from Fundamentals to Mastery',
     subtitle: 'From LLM Fundamentals to AI Agent Harness',
-    brand: 'Xiaoshan Academy',
+    brand: 'UIXS Academy',
     author: 'Luo Xiaoshan (洛小山)',
     authorUrl: 'https://luoxiaoshan.cn/',
     github: 'https://github.com/itshen/learn-ai',
@@ -1607,7 +1607,7 @@ window.COURSE = {
       id: 'p-seo',
       num: 'Bonus',
       title: 'Get Found: SEO & GEO',
-      desc: "Your product is built and the rights are locked down \u2014 the next question is whether anyone can find it. This chapter covers two things: the SEO minimum viable checklist (crawlable, readable, indexable), and GEO, the new battleground (getting ChatGPT, Perplexity, Kimi, and Doubao to cite you when they answer a question). The whole chapter uses one of Xiaoshan Academy's own real overhauls as the case study \u2014 no black hat, no ranking promises, just checklists you can verify yourself. The first two lessons are open without login; the rest require signing in.",
+      desc: "Your product is built and the rights are locked down \u2014 the next question is whether anyone can find it. This chapter covers two things: the SEO minimum viable checklist (crawlable, readable, indexable), and GEO, the new battleground (getting ChatGPT, Perplexity, Kimi, and Doubao to cite you when they answer a question). The whole chapter uses one of UIXS Academy's own real overhauls as the case study \u2014 no black hat, no ranking promises, just checklists you can verify yourself. The first two lessons are open without login; the rest require signing in.",
       color: '#4338ca',
       bonus: true,
       group: 'extra',
@@ -1638,7 +1638,7 @@ window.COURSE = {
           desc: "Using this site's own overhaul log as the dissection table",
           routes: ['pm', 'build'],
           lessons: [
-            { file: 'seo-4.html', title: 'Dissecting This Site: Google Indexes 693 Pages, Bing Only 50', desc: "Xiaoshan Academy's real August 2026 audit, replayed: the sitemap dropped every English and Korean page, the Q&A pages threw away their FAQ citations, and the logs discarded every crawler. For each gap \u2014 how it surfaced, what changed, and what to check it against", tag: 'Case Study' },
+            { file: 'seo-4.html', title: 'Dissecting This Site: Google Indexes 693 Pages, Bing Only 50', desc: "UIXS Academy's real August 2026 audit, replayed: the sitemap dropped every English and Korean page, the Q&A pages threw away their FAQ citations, and the logs discarded every crawler. For each gap \u2014 how it surfaced, what changed, and what to check it against", tag: 'Case Study' },
           ],
         },
         {

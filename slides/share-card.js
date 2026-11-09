@@ -113,7 +113,7 @@
       copyFail: 'Copy failed — please copy the URL manually.',
       downloading: 'Download started — long-press the image if nothing happens',
       posterCta: 'Scan to keep learning',
-      posterBrand: 'xueai.miyang.cn · Xiaoshan Academy',
+      posterBrand: 'xueai.miyang.cn · UIXS Academy',
       fileTag: 'xueai'
     },
     ko: {
@@ -131,7 +131,7 @@
       copyFail: '복사 실패. 주소창 링크를 직접 복사해 주세요.',
       downloading: '저장을 시작했습니다. 반응이 없으면 이미지를 길게 눌러 저장하세요',
       posterCta: '스캔해서 이어서 학습하기',
-      posterBrand: 'xueai.miyang.cn · 샤오산 아카데미',
+      posterBrand: 'xueai.miyang.cn · UIXS 아카데미',
       fileTag: 'xueai'
     }
   };

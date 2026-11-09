@@ -5,7 +5,7 @@ window.COURSE = {
   meta: {
     title: 'AI 입문부터 마스터까지',
     subtitle: '대규모 언어 모델 기초 원리부터 AI Agent Harness까지',
-    brand: '샤오산 아카데미',
+    brand: 'UIXS 아카데미',
     author: '뤄샤오산(洛小山)',
     authorUrl: 'https://luoxiaoshan.cn/',
     github: 'https://github.com/itshen/learn-ai',
@@ -1602,7 +1602,7 @@ window.COURSE = {
       id: 'p-seo',
       num: '보너스',
       title: '검색되기: SEO와 GEO',
-      desc: '제품을 만들고 권리까지 확정했다면, 다음 문제는 아무도 찾지 못하는 게 아닐까입니다. 이 장은 두 가지를 다룹니다: SEO 최소 실행 체크리스트(크롤·이해·색인)와 새로운 전장인 GEO(ChatGPT, Perplexity, Kimi, Doubao가 질문에 답할 때 당신을 인용하게 만들기). 전 장에 걸쳐 샤오산 아카데미의 실제 개선 기록을 사례로 씁니다. 블랙햇은 가르치지 않고 순위도 약속하지 않으며, 직접 확인할 수 있는 체크리스트만 드립니다. 앞 두 레슨은 로그인 없이, 나머지는 로그인 후 학습합니다.',
+      desc: '제품을 만들고 권리까지 확정했다면, 다음 문제는 아무도 찾지 못하는 게 아닐까입니다. 이 장은 두 가지를 다룹니다: SEO 최소 실행 체크리스트(크롤·이해·색인)와 새로운 전장인 GEO(ChatGPT, Perplexity, Kimi, Doubao가 질문에 답할 때 당신을 인용하게 만들기). 전 장에 걸쳐 UIXS 아카데미의 실제 개선 기록을 사례로 씁니다. 블랙햇은 가르치지 않고 순위도 약속하지 않으며, 직접 확인할 수 있는 체크리스트만 드립니다. 앞 두 레슨은 로그인 없이, 나머지는 로그인 후 학습합니다.',
       color: '#4338ca',
       bonus: true,
       group: 'extra',
@@ -1633,7 +1633,7 @@ window.COURSE = {
           desc: '이 사이트의 개선 기록을 해부대로 씁니다',
           routes: ['pm', 'build'],
           lessons: [
-            { file: 'seo-4.html', title: '이 사이트 분해: Google 색인 693페이지, Bing은 50페이지뿐', desc: '샤오산 아카데미의 2026년 8월 실제 감사 복기: sitemap이 영어·한국어 페이지를 전부 빠뜨렸고, Q&A 페이지는 FAQ 인용을 그냥 버렸고, 로그는 크롤러를 모두 폐기했습니다. 결함마다 어떻게 드러났고, 무엇을 바꿨고, 무엇으로 검수했는지 짚습니다', tag: '사례' },
+            { file: 'seo-4.html', title: '이 사이트 분해: Google 색인 693페이지, Bing은 50페이지뿐', desc: 'UIXS 아카데미의 2026년 8월 실제 감사 복기: sitemap이 영어·한국어 페이지를 전부 빠뜨렸고, Q&A 페이지는 FAQ 인용을 그냥 버렸고, 로그는 크롤러를 모두 폐기했습니다. 결함마다 어떻게 드러났고, 무엇을 바꿨고, 무엇으로 검수했는지 짚습니다', tag: '사례' },
           ],
         },
         {
