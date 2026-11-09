@@ -11,7 +11,7 @@
 
 | 定制项 | 实现方式 |
 | --- | --- |
-| 站点首页默认进入课程页 | `index.html`、`slides/index.html` 改为按语言跳转 `slides/learn*.html` |
+| 站点首页默认进入课程页 | `index.html`、`slides/index.html` 按语言跳转 `slides/learn*.html`；`learn*.html` 左上角品牌链接也改为课程页 |
 | 所有课程页免登录、全文可读 | `slides/paywall.js` 替换为解锁垫片；`slides/auth.js` 替换为免登录兼容桩（`XueaiAuth.isFree()` 恒为 true）；统一覆盖层移除 `html.xa-locked` |
 | 隐藏每页顶部「扫码关注」横幅 | `slides/lesson.js` 关闭 `initQrBar()`；覆盖层 CSS 兜底 |
 | 隐藏左下角公众号二维码 | 覆盖层 CSS 隐藏 `.sidebar-qr` / `#partnerSidebarSlot` |
