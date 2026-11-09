@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>小山学堂 · 学 AI 产品，从入门到精通</title>
+<script>
+/* 与 slides/index.html 同一套口径：先认用户选过的语言，没有再猜浏览器语言。
+   meta refresh 留作脚本被禁时的兜底，所以这段要跑在它前面。 */
+(function(){
+  var lang = '';
+  try { lang = localStorage.getItem('xueai_lang') || ''; } catch(e) {}
+  if (!lang) {
+    var nav = (navigator.language || '').toLowerCase();
+    if (nav.indexOf('ko') === 0) lang = 'ko';
+    else if (/^zh-(hk|mo)/.test(nav)) lang = 'hk';
+    else if (/^zh-(tw|hant)/.test(nav)) lang = 'tw';
+    else if (nav.indexOf('zh') === 0) lang = 'zh';
+    else lang = 'en';
+  }
+  window.location.replace(lang === 'zh' ? 'slides/home.html' : 'slides/home.' + lang + '.html');
+})();
+</script>
+<meta http-equiv="refresh" content="0;url=slides/index.html">
+</head>
+<body>
+<p>正在进入课程，如未自动跳转，<a href="slides/index.html">请点击这里</a>。</p>
+<hr>
+<p style="font:13px/1.6 system-ui,sans-serif;color:#555">
+本站点为开源课程《AI 产品从入门到精通》的 GitHub Pages 镜像，原作者：洛小山，
+原项目：<a href="https://github.com/itshen/learn-ai">github.com/itshen/learn-ai</a>，
+遵循 GNU AGPL-3.0 协议，原作者署名与许可证文件均已完整保留。
+</p>
+</body>
+</html>
